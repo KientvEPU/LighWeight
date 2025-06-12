@@ -1,0 +1,42 @@
+Test Data File:./input_sequences\GF9_gm4_intermediate_LFSR.txt
+
+
+Type of Test                                      	P-Value             	Conclusion
+01. Frequency (Monobit) Test                      	0.16578668398105845 	Random
+02. Frequency Test within a Block                 	0.16578668398105845 	Random
+03. Runs Test                                     	0.0012018841205357787	Non-Random
+04. Test for the Longest Run of Ones in a Block   	0.0                 	Non-Random
+05. Binary Matrix Rank Test                       	-1.0                	Non-Random
+06. Discrete Fourier Transform (Spectral) Test    	0.026042175875094643	Random
+07. Non-overlapping Template Matching Test        	0.9999999999999261  	Random
+08. Overlapping Template Matching Test            	nan                 	Non-Random
+09. Maurer's "Universal Statistical" Test         	-1.0                	Non-Random
+10. Linear Complexity Test                        	-1.0                	Non-Random
+11. Serial Test:
+													0.0                 	Non-Random
+													0.0                 	Non-Random
+12. Approximate Entropy Test                      	1.0                 	Random
+13. Cumulative Sums Test (Forward)                	0.2611285468076949  	Random
+14. Cumulative Sums Test (Backward)               	0.2611285468076949  	Random
+15. Random Excursions Test:
+				State     	Chi Squared         	P-Value             	Conclusion
+				-4        	10.819241982507288  	0.055084034990713744	Random
+				-3        	0.9487999999999996  	0.9665887981607446  	Random
+				-2        	1.6631393298059964  	0.8935104594091671  	Random
+				-1        	2.7142857142857144  	0.7439326487244222  	Random
+				+1        	4.714285714285714   	0.45173412986209305 	Random
+				+2        	2.3333333333333335  	0.8013589222076911  	Random
+				+3        	1.4                 	0.924313272801667   	Random
+				+4        	1.0                 	0.9625657732472964  	Random
+16. Random Excursions Variant Test:
+				State     	COUNTS              	P-Value             	Conclusion
+				-9.0      	7                   	1.0                 	Random
+				-8.0      	5                   	0.8902300549434974  	Random
+				-7.0      	3                   	0.7668484756777447  	Random
+				-6.0      	7                   	1.0                 	Random
+				-5.0      	5                   	0.8585862013366392  	Random
+				-4.0      	3                   	0.6861678498552393  	Random
+				-3.0      	7                   	1.0                 	Random
+				-2.0      	5                   	0.7576207236833965  	Random
+				-1.0      	3                   	0.28504940740261286 	Random
+				+1.0      	4                   	0.4226780741706355  	Random

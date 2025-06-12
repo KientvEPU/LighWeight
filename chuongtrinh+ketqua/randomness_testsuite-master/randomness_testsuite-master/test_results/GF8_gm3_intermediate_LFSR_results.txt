@@ -1,0 +1,42 @@
+Test Data File:./input_sequences\GF8_gm3_intermediate_LFSR.txt
+
+
+Type of Test                                      	P-Value             	Conclusion
+01. Frequency (Monobit) Test                      	0.8997412986871715  	Random
+02. Frequency Test within a Block                 	0.8997412986871715  	Random
+03. Runs Test                                     	0.7039008458959505  	Random
+04. Test for the Longest Run of Ones in a Block   	0.0                 	Non-Random
+05. Binary Matrix Rank Test                       	-1.0                	Non-Random
+06. Discrete Fourier Transform (Spectral) Test    	0.2139203039717983  	Random
+07. Non-overlapping Template Matching Test        	0.9999999999999261  	Random
+08. Overlapping Template Matching Test            	nan                 	Non-Random
+09. Maurer's "Universal Statistical" Test         	-1.0                	Non-Random
+10. Linear Complexity Test                        	-1.0                	Non-Random
+11. Serial Test:
+													0.4989610874592239  	Random
+													0.49853075529672125 	Random
+12. Approximate Entropy Test                      	1.0                 	Random
+13. Cumulative Sums Test (Forward)                	0.853013053864891   	Random
+14. Cumulative Sums Test (Backward)               	0.9431512422913593  	Random
+15. Random Excursions Test:
+				State     	Chi Squared         	P-Value             	Conclusion
+				-4        	7.0                 	0.22064030793671066 	Random
+				-3        	4.750000000000001   	0.44714590163950096 	Random
+				-2        	2.8333333333333335  	0.7256621746151816  	Random
+				-1        	5.25                	0.3861379243372882  	Random
+				+1        	7.75                	0.17056249096296938 	Random
+				+2        	1.5802469135802468  	0.9036276975273981  	Random
+				+3        	0.9052              	0.9698440333470613  	Random
+				+4        	0.7059558517284465  	0.9826402055223541  	Random
+16. Random Excursions Variant Test:
+				State     	COUNTS              	P-Value             	Conclusion
+				-4.0      	1                   	0.5083315735521454  	Random
+				-3.0      	2                   	0.5023349543605022  	Random
+				-2.0      	2                   	0.3864762307712327  	Random
+				-1.0      	2                   	0.13361440253771617 	Random
+				+1.0      	10                  	0.6170750774519739  	Random
+				+2.0      	8                   	1.0                 	Random
+				+3.0      	11                  	0.7373156772164182  	Random
+				+4.0      	12                  	0.7054569861112734  	Random
+				+5.0      	7                   	0.9335864962947554  	Random
+				+6.0      	1                   	0.5977458557030398  	Random

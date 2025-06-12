@@ -1,0 +1,28 @@
+"lfsr_generator.py"
+"run.py"
+là 2 chương trình tạo chuỗi khác nhau.
+
+"run.py" dựa trên code của thầy nhưng thêm chức năng tự động tổ hợp các đa thức, kết quả nằm ở thư mục:
+generated_BPNSM_sequences_txt 
+
+"lfsr_generator.py" chỉ có chức năng tạo chuỗi ngẫu nhiên bằng lfsr (có thể chọn số lượng bit)
+
+
+### 📝 Cách sử dụng:	
+
+- run.py:
+Thầy mở lên bằng PyCharm rồi run.
+
+
+- lfsr_generator.py :
+1.  Thư mục đầu ra: ví dụ: `lfsr_sequences`.
+Nơi lưu các tệp `.txt` chứa chuỗi ngẫu nhiên
+
+2.
+Mở Terminal hoặc Command Prompt, gõ cmd vào thanh địa chỉ, tiếp theo chạy lệnh:
+py lfsr_generator.py ./lfsr_sequences
+
+Hoặc chỉ định số lượng bit khác (ví dụ: 500,000 bit) thì chạy lệnh:
+py lfsr_generator.py ./lfsr_sequences --num_bits 500000
+
+Sau khi chạy xong, thư mục ./lfsr_sequences sẽ chứa các tệp `.txt`. Các tệp này làm đầu vào cho chương trình `batch_runner.py` để thực hiện các bài kiểm tra NIST.

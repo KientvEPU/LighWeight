@@ -1,0 +1,50 @@
+Test Data File:./input_lfsr\lfsr_deg12_taps_0_2_3_8_9_polyidx2.txt
+
+
+Type of Test                                      	P-Value             	Conclusion
+01. Frequency (Monobit) Test                      	0.988829981037238   	Random
+02. Frequency Test within a Block                 	0.0                 	Non-Random
+03. Runs Test                                     	1.4912175814088738e-102	Non-Random
+04. Test for the Longest Run of Ones in a Block   	1.4871925647089104e-78	Non-Random
+05. Binary Matrix Rank Test                       	0.0                 	Non-Random
+06. Discrete Fourier Transform (Spectral) Test    	0.0                 	Non-Random
+07. Non-overlapping Template Matching Test        	3.739473774561476e-57	Non-Random
+08. Overlapping Template Matching Test            	0.0                 	Non-Random
+09. Maurer's "Universal Statistical" Test         	4.1774624000153143e-234	Non-Random
+10. Linear Complexity Test                        	0.0                 	Non-Random
+11. Serial Test:
+													0.0                 	Non-Random
+													0.0                 	Non-Random
+12. Approximate Entropy Test                      	0.0                 	Non-Random
+13. Cumulative Sums Test (Forward)                	1.0000000000000018  	Random
+14. Cumulative Sums Test (Backward)               	0.9999999999999991  	Random
+15. Random Excursions Test:
+				State     	Chi Squared         	P-Value             	Conclusion
+				-4        	17791.044435502852  	0.0                 	Non-Random
+				-3        	38349.76844980602   	0.0                 	Non-Random
+				-2        	10564.094996840919  	0.0                 	Non-Random
+				-1        	10366.59196471276   	0.0                 	Non-Random
+				+1        	10368.877557527769  	0.0                 	Non-Random
+				+2        	12914.043861047634  	0.0                 	Non-Random
+				+3        	3694.6480073975667  	0.0                 	Non-Random
+				+4        	2071.911558480011   	0.0                 	Non-Random
+16. Random Excursions Variant Test:
+				State     	COUNTS              	P-Value             	Conclusion
+				-9.0      	29574               	1.038265419924626e-12	Non-Random
+				-8.0      	26881               	4.505962744348098e-24	Non-Random
+				-7.0      	24193               	4.7196275631850034e-42	Non-Random
+				-6.0      	13441               	9.305692031048549e-156	Non-Random
+				-5.0      	13441               	6.492618806402379e-190	Non-Random
+				-4.0      	10753               	3.347891776449449e-300	Non-Random
+				-3.0      	21505               	2.391597276828465e-152	Non-Random
+				-2.0      	37633               	0.9983209101921316  	Random
+				-1.0      	37633               	0.9970917354354981  	Random
+				+1.0      	21505               	0.0                 	Non-Random
+				+2.0      	10752               	0.0                 	Non-Random
+				+3.0      	13440               	0.0                 	Non-Random
+				+4.0      	13440               	1.355402915856043e-243	Non-Random
+				+5.0      	24192               	5.850614969517977e-60	Non-Random
+				+6.0      	26880               	3.1260478228765704e-32	Non-Random
+				+7.0      	29568               	3.514990985991803e-16	Non-Random
+				+8.0      	51072               	1.1638821373684484e-36	Non-Random
+				+9.0      	53760               	4.114986264168481e-46	Non-Random

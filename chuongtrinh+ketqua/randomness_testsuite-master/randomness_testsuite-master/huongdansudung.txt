@@ -1,0 +1,14 @@
+Tại thư mục chứa file này, gõ "cmd" lên thanh địa chỉ:
+Tiếp theo chạy dòng lệnh:
+py batch_runner.py ./input_sequences ./test_results
+
+Thư mục "input_sequences" chứa các file cần kiểm tra (là kết quả của "\taochuoi\auto\run.py")
+Thư mục "test_results" chứa các file kết quả của bài kiểm tra nist
+
+"input_lfsr" chứa các file cần kiểm tra (là kết quả của "\taochuoi\auto\lfsr_generator.py")
+"test_lfsr" chứa các file kết quả của bài kiểm tra nist
+
+
+lệnh tương ứng:
+py batch_runner.py ./input_lfsr ./test_lfsr
+

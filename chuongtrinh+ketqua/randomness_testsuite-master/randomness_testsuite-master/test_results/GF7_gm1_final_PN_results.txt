@@ -1,0 +1,47 @@
+Test Data File:./input_sequences\GF7_gm1_final_PN.txt
+
+
+Type of Test                                      	P-Value             	Conclusion
+01. Frequency (Monobit) Test                      	1.4118708258635704e-72	Non-Random
+02. Frequency Test within a Block                 	1.4810075199042625e-137	Non-Random
+03. Runs Test                                     	0.0                 	Non-Random
+04. Test for the Longest Run of Ones in a Block   	8.41295586971508e-196	Non-Random
+05. Binary Matrix Rank Test                       	5.9797643820615896e-05	Non-Random
+06. Discrete Fourier Transform (Spectral) Test    	2.555354859704198e-18	Non-Random
+07. Non-overlapping Template Matching Test        	0.0020307760578496628	Non-Random
+08. Overlapping Template Matching Test            	0.00256162535847846 	Non-Random
+09. Maurer's "Universal Statistical" Test         	-1.0                	Non-Random
+10. Linear Complexity Test                        	1.0795513249945111e-122	Non-Random
+11. Serial Test:
+													0.0                 	Non-Random
+													0.0                 	Non-Random
+12. Approximate Entropy Test                      	0.0                 	Non-Random
+13. Cumulative Sums Test (Forward)                	3.3356657091976037e-81	Non-Random
+14. Cumulative Sums Test (Backward)               	1.2910058987667286e-73	Non-Random
+15. Random Excursions Test:
+				State     	Chi Squared         	P-Value             	Conclusion
+				-4        	16.6734693877551    	0.005162569561461615	Non-Random
+				-3        	21.97142857142857   	0.0005301869768679919	Non-Random
+				-2        	10.523809523809524  	0.06168302750439798 	Random
+				-1        	7.857142857142857   	0.16428649429060843 	Random
+				+1        	6.428571428571429   	0.2667207596069264  	Random
+				+2        	24.428571428571427  	0.00017957389454013084	Non-Random
+				+3        	55.22857142857143   	1.1713938192988105e-10	Non-Random
+				+4        	97.6530612244898    	1.6501640701540271e-19	Non-Random
+16. Random Excursions Variant Test:
+				State     	COUNTS              	P-Value             	Conclusion
+				-6.0      	1                   	0.6287451762738331  	Random
+				-5.0      	2                   	0.6560051321908611  	Random
+				-4.0      	3                   	0.6861678498552393  	Random
+				-3.0      	4                   	0.7199178531944465  	Random
+				-2.0      	5                   	0.7576207236833965  	Random
+				-1.0      	6                   	0.7892680261342813  	Random
+				+1.0      	7                   	1.0                 	Random
+				+2.0      	7                   	1.0                 	Random
+				+3.0      	7                   	1.0                 	Random
+				+4.0      	7                   	1.0                 	Random
+				+5.0      	7                   	1.0                 	Random
+				+6.0      	7                   	1.0                 	Random
+				+7.0      	7                   	1.0                 	Random
+				+8.0      	7                   	1.0                 	Random
+				+9.0      	7                   	1.0                 	Random

@@ -1,0 +1,1 @@
+có file hướng dẫn sử dụng trong thư mục randomness_testsuite-master

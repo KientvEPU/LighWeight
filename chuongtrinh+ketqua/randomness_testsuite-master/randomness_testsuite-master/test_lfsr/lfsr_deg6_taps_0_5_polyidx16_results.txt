@@ -1,0 +1,45 @@
+Test Data File:./input_lfsr\lfsr_deg6_taps_0_5_polyidx16.txt
+
+
+Type of Test                                      	P-Value             	Conclusion
+01. Frequency (Monobit) Test                      	9.592758705912567e-57	Non-Random
+02. Frequency Test within a Block                 	1.0                 	Random
+03. Runs Test                                     	0.0                 	Non-Random
+04. Test for the Longest Run of Ones in a Block   	4.40038449436048e-220	Non-Random
+05. Binary Matrix Rank Test                       	0.0                 	Non-Random
+06. Discrete Fourier Transform (Spectral) Test    	0.0                 	Non-Random
+07. Non-overlapping Template Matching Test        	0.0                 	Non-Random
+08. Overlapping Template Matching Test            	0.0                 	Non-Random
+09. Maurer's "Universal Statistical" Test         	0.0                 	Non-Random
+10. Linear Complexity Test                        	0.0                 	Non-Random
+11. Serial Test:
+													0.0                 	Non-Random
+													0.0                 	Non-Random
+12. Approximate Entropy Test                      	0.0                 	Non-Random
+13. Cumulative Sums Test (Forward)                	4.428966900704903e-57	Non-Random
+14. Cumulative Sums Test (Backward)               	4.500134746047143e-57	Non-Random
+15. Random Excursions Test:
+				State     	Chi Squared         	P-Value             	Conclusion
+				-4        	5.6571428571428575  	0.3410220418594873  	Random
+				-3        	5.6000000000000005  	0.34710506828171556 	Random
+				-2        	6.666666666666667   	0.24663415218605245 	Random
+				-1        	4.800000000000001   	0.440772968086663   	Random
+				+1        	9.6                 	0.0873956533205823  	Random
+				+2        	10.71604938271605   	0.05730978571931153 	Random
+				+3        	17.22656            	0.004089570624633475	Non-Random
+				+4        	26.976259891711788  	5.7652885085314734e-05	Non-Random
+16. Random Excursions Variant Test:
+				State     	COUNTS              	P-Value             	Conclusion
+				-4.0      	1                   	0.4468728207108309  	Random
+				-3.0      	3                   	0.48392730444614607 	Random
+				-2.0      	5                   	0.5186050164287256  	Random
+				-1.0      	7                   	0.5023349543605022  	Random
+				+1.0      	16                  	0.17971249487899987 	Random
+				+2.0      	24                  	0.07070114486598304 	Random
+				+3.0      	32                  	0.027806895026997226	Random
+				+4.0      	43                  	0.005286958915938785	Non-Random
+				+5.0      	55                  	0.0007962301575908116	Non-Random
+				+6.0      	62                  	0.000455169969885115	Non-Random
+				+7.0      	63                  	0.0010128943646441847	Non-Random
+				+8.0      	63                  	0.0022136919545913893	Non-Random
+				+9.0      	63                  	0.004048875107081629	Non-Random
